@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5feb2d5-c5c2-4c7e-ba13-49eb68a605b6">
+  <producedTypes>
+    <refType typeId="db4be539-ead3-4275-93b8-ecdf448d4498" valueTypeId="5f034934-9598-4fce-8f0e-21ebfa153d52"/>
+    <listType typeId="cb6acaad-bf0f-4c6b-95c7-2b6c31a49092" valueTypeId="ca29444b-65ee-40ab-92d4-c7d7aa1956fe"/>
+    <managerType typeId="fc33fdc2-a8c0-4477-ab04-81a0ef6a2876" valueTypeId="35843890-5e78-4084-80de-96851777e71e"/>
+  </producedTypes>
+  <name>РазделыМеню</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разделы меню</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="951672fc-f7c8-4979-995f-5136eb3e1be2">
+    <name>ХолодныеЗакуски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Холодные закуски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="49030647-30a4-4e57-86cd-1ca976703624">
+    <name>ГорячиеЗакуски</name>
+    <synonym>
+      <key>ru</key>
+      <value>Горячие закуски</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c077e08-c055-4058-9976-e403e94a7b09">
+    <name>Супы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Супы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cfa1e446-0d7f-4038-a67b-a9e0745d088d">
+    <name>Пицца</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пицца</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b43c6318-dab7-47cd-9818-2d98acf53c37">
+    <name>РоллыИСуши</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роллы и суши</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f080e919-320f-463d-b08f-5108b8f06f43">
+    <name>Напитки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Напитки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="004f3673-ebb1-41f6-9a73-4449c7f4c44a">
+    <name>ГорячиеБлюда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Горячие блюда</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="558f28dc-e48b-4da5-9e98-7d21e2ffa40c">
+    <name>Десерты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Десерты</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

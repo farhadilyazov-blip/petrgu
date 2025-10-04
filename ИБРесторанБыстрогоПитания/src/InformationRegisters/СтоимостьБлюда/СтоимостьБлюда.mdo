@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0a789a5e-5c2b-4e60-90b5-e2c339148aec">
+  <producedTypes>
+    <selectionType typeId="17edf89d-2744-4491-af9e-36fd61c2e283" valueTypeId="a979a04b-3572-4d62-b006-ddbfdf2de9fe"/>
+    <listType typeId="3b829c21-2d5d-4fa2-b4ea-48d3d292325a" valueTypeId="6c2b1cb3-a264-4e69-acd5-a4e6d8597b3d"/>
+    <managerType typeId="e98bf393-15a0-4a3e-9e8a-9da4988e5902" valueTypeId="ae49fd98-09da-4180-b4eb-d5466b633ca9"/>
+    <recordSetType typeId="e05d64b3-803a-4b29-80b0-5faf43e53d51" valueTypeId="93ea793b-8d76-4a3b-8718-db9f3f63c531"/>
+    <recordKeyType typeId="8b238ca7-a7bd-4d4b-afa0-d6b86ca6584e" valueTypeId="7d826805-03ec-4168-8241-6eba2877dd05"/>
+    <recordType typeId="efc206e8-b083-4eb6-9c26-d39db7040467" valueTypeId="dc485423-96b5-41d4-8581-c1f00a9e9af5"/>
+    <recordManagerType typeId="d3c0887f-a2ab-49d4-a243-becbc088a33b" valueTypeId="07eb58bc-0d58-4379-90f6-e8ef0c842cc8"/>
+  </producedTypes>
+  <name>СтоимостьБлюда</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость блюда</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="47df805c-09c1-45ef-a413-bafc5bf9fcc1">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="60bf014f-0948-4dc4-a838-050f6dd92e67">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="5462d631-9f76-4b3d-bdac-1d47f0933faf">
+    <name>Блюдо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Блюдо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Блюда</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

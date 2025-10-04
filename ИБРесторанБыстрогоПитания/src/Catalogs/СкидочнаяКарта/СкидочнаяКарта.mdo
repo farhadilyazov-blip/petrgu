@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="060588d0-e4b1-498e-bde6-e4de97e78d9b">
+  <producedTypes>
+    <objectType typeId="886f9879-c375-418d-b912-70c47ee15e3a" valueTypeId="4b589059-e5d0-4cae-a40c-7b6f48a8466e"/>
+    <refType typeId="87e27232-e5f5-4f6c-a72b-697769bf8885" valueTypeId="8eb493a6-af68-42d7-a748-ac96f0683fef"/>
+    <selectionType typeId="5327b3a6-463a-43d5-a335-f0fb14d3a005" valueTypeId="86467e58-3a32-4c1c-9b40-269264b1451c"/>
+    <listType typeId="6293fe17-591a-4c57-8e56-9b9c41a3e6eb" valueTypeId="08882570-8ff6-4776-bd00-c43f198f749d"/>
+    <managerType typeId="c928ce8d-a6ec-42ea-a2a6-e851040e4f39" valueTypeId="1de3f8c4-380e-4576-a220-26a31b9e47f7"/>
+  </producedTypes>
+  <name>СкидочнаяКарта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скидочная карта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СкидочнаяКарта.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.СкидочнаяКарта.Attribute.НомерКарты</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="664c47e6-ebea-41eb-b12c-344d158e6533">
+    <name>ДатаВыдачи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выдачи</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23e7b5ea-fee0-4955-b38e-ee274b13f6e0">
+    <name>КтоВыдалКарту</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кто выдал карту</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0215adfc-3eb1-4040-ba14-6c4031fc51a7">
+    <name>НомерКарты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер карты</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>16</length>
+      </stringQualifiers>
+    </type>
+    <mask>9999999999999999</mask>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>IndexWithAdditionalOrder</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

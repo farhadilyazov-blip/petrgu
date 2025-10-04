@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caf6bfe4-064c-4626-9255-29d61618e868">
+  <name>Конфигурация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конфигурация</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="089ab45c-28bd-412d-872b-4c12b4080a21"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="ba2a3ebf-dd4f-47da-88dc-6a63000aacab"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8c70a555-c067-4686-b833-0013b76bb2e5"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fc214c21-e25e-46d6-a381-fb0bfd8ea5dc"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="387dea53-a71e-4584-9919-37ec7bd0c4a8"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="516d1c86-6a0c-4f87-b5a3-96990188a3a4"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="6d4ebe16-c05b-451b-9884-17f52a33e52c"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.27</compatibilityMode>
+  <languages uuid="4f7cef6c-6289-4bba-b14e-8716eca591ec">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Заказы</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.МенеджерРесторана</roles>
+  <roles>Role.Повар</roles>
+  <roles>Role.ОбслуживающийПерсонал</roles>
+  <commonModules>CommonModule.РаботаСДокументами</commonModules>
+  <commonModules>CommonModule.РаботаСоСправочником</commonModules>
+  <catalogs>Catalog.Блюда</catalogs>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Рестораны</catalogs>
+  <catalogs>Catalog.СкидочнаяКарта</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <documents>Document.Заказ</documents>
+  <enums>Enum.РазделыМеню</enums>
+  <informationRegisters>InformationRegister.СтоимостьБлюда</informationRegisters>
+</mdclass:Configuration>
