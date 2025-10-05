@@ -50,7 +50,6 @@
   <catalogs>Catalog.Рестораны</catalogs>
   <catalogs>Catalog.СкидочнаяКарта</catalogs>
   <catalogs>Catalog.Сотрудники</catalogs>
-  <catalogs>Catalog.СправочникВторогоРазработчика</catalogs>
   <documents>Document.Заказ</documents>
   <enums>Enum.РазделыМеню</enums>
   <informationRegisters>InformationRegister.СтоимостьБлюда</informationRegisters>
